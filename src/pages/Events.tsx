@@ -6,17 +6,17 @@ export default function Events() {
   const events = [
     {
       city: "Syon",
-      type: "Urban City",
-      title: "Commercial & Innovation Forum",
-      focus: "Deregulation & Financial Sector",
+      type: "Syon Exchange Building",
+      title: "A Market That Plays Fair",
+      focus: "Anti-Trust & Fair Competition",
       day: "12",
       month: "OCT"
     },
     {
       city: "Redmont",
-      type: "Suburban Town",
-      title: "Family & Veterans Picnic",
-      focus: "Local Zoning & Family Values",
+      type: "Redmont Townhall",
+      title: "A Fair Start for Everyone",
+      focus: "Equal Opportunity & Vocational Trades",
       day: "19",
       month: "OCT"
     }
@@ -61,7 +61,7 @@ export default function Events() {
                 {/* Main Ticket Body (Left) */}
                 <div className="bg-brand-white/95 backdrop-blur-xl flex-1 p-8 md:p-12 relative border-t border-l border-r md:border-r-0 border-brand-navy/10 rounded-t-3xl md:rounded-l-3xl md:rounded-tr-none transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] [transform-origin:right_center] group-hover/ticket:scale-[1.015] shadow-lg group-hover/ticket:shadow-2xl z-20">
                   <p className="font-basetica text-brand-navy/60 text-[10px] font-extrabold tracking-[0.2em] uppercase mb-4">Official Campaign Event · 2072</p>
-                  <h3 className="font-plaak text-3xl md:text-5xl font-bold tracking-tight text-brand-navy lowercase mb-8">
+                  <h3 className="font-plaak text-3xl md:text-5xl font-bold tracking-tight text-brand-navy mb-8">
                     {evt.title}
                   </h3>
                   
