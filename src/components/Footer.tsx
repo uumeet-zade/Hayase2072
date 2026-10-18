@@ -13,7 +13,7 @@ export default function Footer() {
           <Link to="/" className="hover:text-brand-gold transition-colors">Home</Link>
           <Link to="/about" className="hover:text-brand-gold transition-colors">About</Link>
           <Link to="/policies" className="hover:text-brand-gold transition-colors">Policies</Link>
-          <Link to="/events" className="hover:text-brand-gold transition-colors">Events & Media</Link>
+          <Link to="/events" className="hover:text-brand-gold transition-colors">Events</Link>
         </div>
         <div className="font-basetica text-xs text-brand-white/60 text-center md:text-right">
           © 2072 Hayase for Reno Campaign. Paid by Tadashi Hayase himself.

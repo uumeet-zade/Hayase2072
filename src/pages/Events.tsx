@@ -8,7 +8,6 @@ export default function Events() {
       city: "Syon",
       type: "Syon Exchange Building",
       title: "A Market That Plays Fair",
-      focus: "Anti-Trust & Fair Competition",
       day: "12",
       month: "OCT"
     },
@@ -16,7 +15,6 @@ export default function Events() {
       city: "Redmont",
       type: "Redmont Townhall",
       title: "A Fair Start for Everyone",
-      focus: "Equal Opportunity & Vocational Trades",
       day: "19",
       month: "OCT"
     }
@@ -65,16 +63,10 @@ export default function Events() {
                     {evt.title}
                   </h3>
                   
-                  <div className="grid grid-cols-2 gap-6 mb-8 max-w-lg">
-                    <div>
-                      <p className="font-basetica text-brand-navy/50 text-[10px] font-extrabold tracking-[0.18em] uppercase">Location</p>
-                      <p className="font-plaak text-brand-navy mt-1 text-xl font-bold">{evt.city}</p>
-                      <p className="font-basetica text-brand-navy/70 text-xs mt-1">{evt.type}</p>
-                    </div>
-                    <div>
-                      <p className="font-basetica text-brand-navy/50 text-[10px] font-extrabold tracking-[0.18em] uppercase">Focus</p>
-                      <p className="font-basetica text-brand-navy mt-2 text-sm font-medium">{evt.focus}</p>
-                    </div>
+                  <div className="mb-8 max-w-lg">
+                    <p className="font-basetica text-brand-navy/50 text-[10px] font-extrabold tracking-[0.18em] uppercase">Location</p>
+                    <p className="font-plaak text-brand-navy mt-1 text-2xl font-bold">{evt.city}</p>
+                    <p className="font-basetica text-brand-navy/70 text-sm mt-0.5">{evt.type}</p>
                   </div>
                   
                   <button className="bg-brand-navy text-brand-white font-basetica font-bold text-sm px-8 py-3.5 rounded-full group-hover/ticket:bg-brand-gold group-hover/ticket:text-brand-navy transition-colors">
@@ -101,18 +93,6 @@ export default function Events() {
               </div>
             </motion.div>
           ))}
-        </div>
-      </section>
-
-      {/* Media & Campaign Updates */}
-      <section className="bg-brand-navy py-24 px-5 text-brand-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="font-plaak font-bold uppercase text-5xl tracking-tight">Campaign Media</h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-            {/* Media boxes removed for separate implementation */}
-          </div>
         </div>
       </section>
     </div>

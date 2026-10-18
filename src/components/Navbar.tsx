@@ -20,7 +20,7 @@ export default function Navbar() {
             <li><Link to="/" className="hover:text-brand-steel transition-colors">Home</Link></li>
             <li><Link to="/about" className="hover:text-brand-steel transition-colors">About Tadashi</Link></li>
             <li><Link to="/policies" className="hover:text-brand-steel transition-colors">Core Policies</Link></li>
-            <li><Link to="/events" className="hover:text-brand-steel transition-colors">Events & Media</Link></li>
+            <li><Link to="/events" className="hover:text-brand-steel transition-colors">Events</Link></li>
           </ul>
           <div className="flex items-center gap-3">
             <button 
